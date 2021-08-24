@@ -24,7 +24,7 @@
 
     <div class="background-section">
         <section class="section-body">
-            <form class="formulario-login">
+            <form class="formulario-login" id="botonFormulario">
 
            
                 <h2 class="formulario-login__titulo">
@@ -34,44 +34,52 @@
 
                 <label for="primerNombre">
                     Primer nombre
-                    <input type="text" placeholder="Sara" name="primerNombre"  class="formulario_login_input">
+                    <input type="text" placeholder="Sara" name="primerNombre"  class="formulario_login_input"
+                    id="inputNombre1">
                 </label>
 
                
             
                 <label for="segundoNombre">
                     Segundo nombre
-                    <input type="text" placeholder="María" name="segundoNombre" class="formulario_login_input">
+                    <input type="text" placeholder="María" name="segundoNombre" class="formulario_login_input"
+                    id="inputNombre2">
                 </label>
             </div>
                 <label for="apellidos">
                     Apellidos
-                    <input type="text"  placeholder="Guzmán Aguilar" name="apellidos" class="formulario_login_input_nombres">
+                    <input type="text"  placeholder="Guzmán Aguilar" name="apellidos" class="formulario_login_input_nombres"
+                    id="inputApellidos">
                 </label>
                 
 
                 <label for="correo">
                     Correo
-                    <input type="text"  placeholder="saraguzman00@gmail.com" name="correo" class="formulario_login_input_nombres">
+                    <input type="text"  placeholder="saraguzman00@gmail.com" name="correo" class="formulario_login_input_nombres"
+                    id="inputCorreo">
                 </label>
                 
 
-                <label for="contraseña">
+                <label for="contrasenna">
                     Contraseña
-                    <input type="text"  placeholder="12345pink" name="contraseña" class="formulario_login_input_nombres">
+                    <input type="text"  placeholder="12345pink" name="contrasenna" class="formulario_login_input_nombres"
+                    id="inputContrasenna">
                 </label>
                 
 
-                <label for="confirmarContraseña">
+                <label for="confirmarContrasenna">
                     Confirmar contraseña
-                    <input type="text"  placeholder="12345pink" name="confirmarContraseña" class="formulario_login_input_nombres">
+                    <input type="text"  placeholder="12345pink" name="confirmarContrasenna" class="formulario_login_input_nombres"
+                    id="inputConfirmarContrasenna">
                 </label>
                 
                 <button class="button">¡Listo!</button>
+                <div id="veri" id="veri2" class="verificacion" class="verificacion2"></div>
+                <div id="veri2" class="verificacion2"></div>
 
             </form>
         </section>
     </div>
-
+        <script src="js/Main.js"></script>
 </body>
 </html>
