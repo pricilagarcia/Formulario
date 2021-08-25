@@ -12,13 +12,16 @@ var confirmarContrasenna = document.querySelector("#inputConfirmarContrasenna").
 var veri = document.querySelector("#veri");
 var veri2 = document.querySelector("#veri2");
 
-    if(contrasenna ==  confirmarContrasenna){
-        veri2.innerHTML = "Contraseña Correcta";
-
+    if(contrasenna != "" && confirmarContrasenna != ""){
+        if(contrasenna ==  confirmarContrasenna){
+            veri2.innerHTML = "Contraseña Correcta";
+    
+        }else{
+            veri.innerHTML = "Contraseña Incorrecta";
+        }
     }else{
-        veri.innerHTML = "Contraseña Incorrecta";
+        veri.innerHTML = "Campo incompleto";
     }
-  
 }
 
 var boton = document.querySelector("#botonFormulario");
